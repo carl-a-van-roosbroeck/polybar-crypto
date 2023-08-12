@@ -3,9 +3,8 @@ A *polybar script* that displays the price or percentage change of various **cry
 
 
 
-![screen](https://user-images.githubusercontent.com/24377188/31326832-34dd06de-ad27-11e7-908f-9e7d72398eb7.jpg)
-
-
+![crypto demo](./readme_assets/crypto_display_percentage.png)
+![crypto demo](./readme_assets/crypto_display_percentage.png)
 
 # Setup
 ```
@@ -73,20 +72,22 @@ color = #ff6600
 
 `display = price`
 
-![screen](https://user-images.githubusercontent.com/24377188/31331319-4ef14406-ad3e-11e7-9242-12440ef96774.jpg)
+![crypto display price](./readme_assets/crypto_display_price.png)
 
 `display = percentage`
 
-![screen](https://user-images.githubusercontent.com/24377188/31331342-65e40428-ad3e-11e7-88e0-3b87921805c7.jpg)
+![crypto display percentage](./readme_assets/crypto_display_percentage.png)
 
 `display = both`
 
-![screen](https://user-images.githubusercontent.com/24377188/31331368-80faac76-ad3e-11e7-9977-e86b1eebe401.jpg)
+![crypto display both](./readme_assets/crypto_display_both.png)
 
 ## Rounding
 
 `round = 0` No rounding
-`round = {n}`Round
+`round = {n}` Round
+
+![crypto display both](./readme_assets/crypto_round_3.png)
 
 ## Color
 
