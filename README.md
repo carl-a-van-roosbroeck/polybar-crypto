@@ -1,9 +1,7 @@
 # polybar-crypto
 A *polybar script* that displays the price or percentage change of various **crypto-currencies**.
 
-
-
-![crypto demo](./readme_assets/crypto_display_percentage.png)
+<img src="./readme_assets/crypto_display_percentage.png" alt="display both" width="500" height="50"/>
 
 # Setup
 ```
@@ -71,15 +69,15 @@ color = #ff6600
 
 `display = price`
 
-![crypto display price](./readme_assets/crypto_display_price.png)
+<img src="./readme_assets/crypto_display_price.png" alt="display both" width="500" height="50"/>
 
 `display = percentage`
 
-![crypto display percentage](./readme_assets/crypto_display_percentage.png)
+<img src="./readme_assets/crypto_display_percentage.png" alt="display both" width="500" height="50"/>
 
 `display = both`
 
-![crypto display both](./readme_assets/crypto_display_both.png)
+<img src="./readme_assets/crypto_display_both.png" alt="display both" width="500" height="50"/>
 
 ## Rounding
 
@@ -89,8 +87,7 @@ color = #ff6600
 
 *for example*
 `round = 3`
-![crypto display both](./readme_assets/crypto_round_3.png)
-<img src="./readme_assets/crypto_round_3.png" alt="display both" width="200" height="20"/>
+<img src="./readme_assets/crypto_round_3.png" alt="display both" width="500" height="50"/>
 
 
 ## Color
