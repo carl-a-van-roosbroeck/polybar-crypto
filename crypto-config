@@ -1,16 +1,16 @@
 [general]
-base_currency = NZD
-display = price
+base_currency = EUR
+display = percentage
+round = 3
 
 [bitcoin]
-icon = 
-
-[litecoin]
-icon = 
-
-[ardor]
-icon = 
+icon = 
+color = #f2a900
 
 [ethereum]
-icon = 
+icon = 
+color = #3c3c3d
 
+[monero]
+icon = 
+color = #ff6600

@@ -1,5 +1,5 @@
 # polybar-crypto
-A *polybar script* that displays the price of various **crypto-currencies**.
+A *polybar script* that displays the price or percentage change of various **crypto-currencies**.
 
 
 
@@ -9,7 +9,7 @@ A *polybar script* that displays the price of various **crypto-currencies**.
 
 # Setup
 ```
-git clone https://github.com/willHol/polybar-crypto.git &&
+git clone https://github.com/carl-a-van-roosbroeck/polybar-crypto &&
     cd polybar-crypto &&
     mkdir -p ~/.config/polybar &&
     cp ./{crypto-config,crypto.py} ~/.config/polybar &&
@@ -23,7 +23,7 @@ Then in `~/.config/polybar/config`:
 
 ...
 
-modules-right = crypto
+modules-left = crypto
 
 ...
 
@@ -44,7 +44,7 @@ If using the **cryptocoins** icon font, ensure that the following line is presen
 
 ...
 
-font-0 = cryptocoins:style=Regular;0
+font-2 = cryptocoins:style=Regular;0
 ```
 
 # Example Configuration
@@ -52,23 +52,21 @@ font-0 = cryptocoins:style=Regular;0
 `~/.config/polybar/crypto-config`
 ```
 [general]
-base_currency = NZD
+base_currency = EUR
 display = percentage
+round = 3
 
 [bitcoin]
-icon = 
+icon = 
+color = #f2a900
 
 [ethereum]
-icon = 
+icon = 
+color = #3c3c3d
 
-[litecoin]
-icon = 
-
-[ardor]
-icon = 
-
-[NEO]
-icon = 
+[monero]
+icon = 
+color = #ff6600
 ```
 
 ## Display Modes
@@ -84,3 +82,13 @@ icon = 
 `display = both`
 
 ![screen](https://user-images.githubusercontent.com/24377188/31331368-80faac76-ad3e-11e7-9977-e86b1eebe401.jpg)
+
+## Rounding
+
+`round = 0` No rounding
+`round = {n}`Round
+
+## Color
+
+`color = {hex color}` Set the color of the symbol
+
