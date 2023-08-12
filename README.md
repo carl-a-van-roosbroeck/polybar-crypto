@@ -86,7 +86,9 @@ color = #ff6600
 
 
 *for example*
+
 `round = 3`
+
 <img src="./readme_assets/crypto_round_3.png" alt="display both" width="500" height="50"/>
 
 
