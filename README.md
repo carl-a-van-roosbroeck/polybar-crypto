@@ -4,7 +4,6 @@ A *polybar script* that displays the price or percentage change of various **cry
 
 
 ![crypto demo](./readme_assets/crypto_display_percentage.png)
-![crypto demo](./readme_assets/crypto_display_percentage.png)
 
 # Setup
 ```
@@ -87,7 +86,12 @@ color = #ff6600
 `round = 0` No rounding
 `round = {n}` Round
 
+
+*for example*
+`round = 3`
 ![crypto display both](./readme_assets/crypto_round_3.png)
+<img src="./readme_assets/crypto_round_3.png" alt="display both" width="200" height="20"/>
+
 
 ## Color
 
